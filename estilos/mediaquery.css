@@ -1,4 +1,4 @@
-@charset "UtF-8";
+@charset "UTF-8";
 
 /*Typical Device brakpoints
 ----------------------------
@@ -24,14 +24,13 @@ Grandes telas: acima de 1200
         width: 990px;
     }
 }
-section#login > div#imgaem{
+section#login > div#imagem{
     float: left;
-    width: 500%
-    height; 100%
+    width: 50%;
 }
 
-section#logim > div#formulario {
-    float:left;
-    width: 50%;
-    height: 50px;px ;
+section#login > div#formulario {
+    float:right;
+    width: 70%;
+   
 }
