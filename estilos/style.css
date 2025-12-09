@@ -45,7 +45,7 @@ section#login{
 }
 
 section#login > div#imagem {
-    display: block;
+    display: block;  
     background: #5f2c82 url(../imagens/img.jpg ) no-repeat center center;
     background-size: cover;
     height: 200px;
@@ -54,4 +54,12 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding:10px;
+}
+div#formulrio > h1 {
+    font-size: 2em;
+
+}
+
+div#formulario > p {
+    font-size: 1.2em;
 }
