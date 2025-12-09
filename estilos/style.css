@@ -19,6 +19,7 @@ body, html{
 }
 
 main{
+    position: relative;
     height: 100vh;
     width: 100vw;
 }
@@ -43,7 +44,7 @@ section#login{
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/img.jpg);
+    background: #5f2c82 url(../imagens/img.jpg ) no-repeat center center;
     background-size: cover;
     height: 200px;
 }
